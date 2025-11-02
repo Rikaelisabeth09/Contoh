@@ -2,9 +2,9 @@
 
 ## Overview
 
-Project ini dibuat untuk technical test Lion Parcel. Tujuannya adalah mengubah data pengiriman mentah menjadi dataset yang siap untuk analisis dan dashboard.
+Project ini dibuat untuk technical test Lion Parcel. Bertujuan untuk transform data pengiriman mentah menjadi dataset yang siap untuk analisis dan dashboard.
 
-Saya menggunakan Python dengan pandas untuk proses cleaning dan agregasi data. Hasilnya adalah dua file CSV: satu untuk data yang sudah dibersihkan, dan satu lagi untuk ringkasan performa per customer.
+Saya menggunakan Python (Google colab) dengan pandas untuk proses cleaning dan agregasi datanya. Dimana output yaitu dua file CSV: satu untuk data yang sudah dibersihkan, dan satu lagi untuk ringkasan performa per customer.
 
 ## Files
 
@@ -25,7 +25,7 @@ pip install pandas numpy
 
 ## Cara Menjalankan
 
-1. Pastikan kedua file CSV input sudah ada di directory yang sama dengan script
+1. Keiedua file CSV yang telah didownload input sudah ada di directory yang sama dengan script
 2. Jalankan script:
    ```bash
    python lion_parcel_transform.py
